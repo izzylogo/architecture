@@ -136,14 +136,14 @@ layoutDivs.forEach((div, index) => {
 
 //Change Logo during Page Transition
 function changeLogo() {
-  let blackLogo = `images/brand.png`
+  let blackLogo = `images/architecture-logo.png`
 
   let logo = Array.from(document.getElementsByClassName('logo'))
   logo[0].src = blackLogo
 }
 
 function changeLogoWhite() {
-  let whiteLogo = `images/brand-white.png`
+  let whiteLogo = `images/architecture-logo.png`
   let logo = Array.from(document.getElementsByClassName('logo'))
   logo[0].src = whiteLogo
 }
