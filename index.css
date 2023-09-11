@@ -413,12 +413,15 @@ body{
         height: 100%;
         width: 100%;
         opacity: 0;
-        transition: opacity 0.5s 0.2s ease , transform 5s 0.2s ease
+        transition: opacity 0.5s 0.2s ease , transform 5s 0.2s ease;
+        
     }
     
     .active {
        opacity: 1;
        transform: scale(1.05);
+       background-color: #000000a3;
+    background-blend-mode: soft-light;
     }
     
     
