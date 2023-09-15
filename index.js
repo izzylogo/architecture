@@ -285,9 +285,9 @@ let tPosition = 0
 function prevTest() {
   if (tPosition === 0) {
   } else {
-    testimonies[tPosition].classList.remove('active')
+    testimonies[tPosition].classList.remove('activetest')
 
-    testimonies[tPosition - 1].classList.add('active')
+    testimonies[tPosition - 1].classList.add('activetest')
 
     tPosition--
   }
@@ -295,9 +295,9 @@ function prevTest() {
 
 function nextTest() {
   if (tPosition < testimonies.length - 1) {
-    testimonies[tPosition].classList.remove('active')
+    testimonies[tPosition].classList.remove('activetest')
 
-    testimonies[tPosition + 1].classList.add('active')
+    testimonies[tPosition + 1].classList.add('activetest')
 
     tPosition++
   } else {

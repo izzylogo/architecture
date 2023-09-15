@@ -434,6 +434,8 @@ body{
         grid-template-columns: repeat(6, 2fr);
         align-items: center;
         background-image: url(images/bg3.jpg);
+        background-color: #161616a4;
+        background-blend-mode: soft-light;
         /* color: #fff; */
         color:#BC4749;
         z-index: 2;
@@ -485,10 +487,18 @@ body{
         transition: opacity .1s cubic-bezier(0.4, 0, 1, 1);
     }
     
-    .testimonials .testimony.active{
+    .testimonials .testimony.activetest{
         opacity: 1;
         transform: scale(1);
     }
+
+    /* .activetest{
+        opacity: 1;
+       transform: scale(1);
+       background-color: #000000a3;
+    background-blend-mode: soft-light;   
+    } */
+
     .testimony p{
         margin-bottom: 2.6rem;
         color:#BC4749;
@@ -551,13 +561,15 @@ body{
     }
     
     .layout-4 > p {
-        margin-bottom: 4.5rem;
+        /* margin-bottom: 4.5rem; */
+        margin-bottom: 1.5rem;
     }
     .contact-info{
         max-width: 70%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        margin-top: 5.5rem;
+        /* margin-top: 5.5rem; */
+        margin-bottom: 1.5rem;
     }
     
     .contact-info h3{
@@ -589,6 +601,57 @@ body{
         line-height: 1.5;
         font-weight: bold;
     } 
+
+    /* Form */
+    .form{
+        width: 60%;
+    }
+    .form h3{
+        font-size: 1.92rem;
+        text-align: center;
+    }
+
+    .form > form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    form input, textarea{
+        width: 100%;
+        padding: 10px 15px;
+        border: 3px solid #BC4749;
+        margin-bottom: 8px;
+        border-radius: 20px;
+        outline: #72292b;
+    }
+
+    form input:focus{
+        outline: #72292b;
+    }
+
+    form input::placeholder{
+        font-weight: 700;
+        font-family: inherit;
+    }
+
+    form textarea::placeholder{
+        font-weight: 900;
+    }
+
+    form button{
+        width: 20%;
+        padding: 10px 15px;
+        background-color: #BC4749;
+        border: none;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 600;
+        cursor: pointer;
+        border-radius: 20px;
+        text-align: center;
+    }
     
     /*Carousel*/
     .layer{

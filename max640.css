@@ -473,7 +473,7 @@
         transition: opacity .1s cubic-bezier(0.4, 0, 1, 1);
     }
     
-    .testimonials .testimony.active{
+    .testimonials .testimony.activetest{
         opacity: 1;
         transform: scale(1);
     }
@@ -547,6 +547,58 @@
         font-size: 1.92rem;
         text-transform: uppercase;
     
+    }
+
+    /* Form */
+    .form{
+        width: 100%;
+        padding-bottom: 100px;
+    }
+    .form h3{
+        font-size: 1.92rem;
+        text-align: center;
+    }
+
+    .form > form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    form input, textarea{
+        width: 100%;
+        padding: 10px 15px;
+        border: 3px solid #BC4749;
+        margin-bottom: 8px;
+        border-radius: 20px;
+        outline: #72292b;
+    }
+
+    form input:focus{
+        outline: #72292b;
+    }
+
+    form input::placeholder{
+        font-weight: 700;
+        font-family: inherit;
+    }
+
+    form textarea::placeholder{
+        font-weight: 900;
+    }
+
+    form button{
+        width: 100%;
+        padding: 10px 15px;
+        background-color: #BC4749;
+        border: none;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 600;
+        cursor: pointer;
+        border-radius: 20px;
+        text-align: center;
     }
     
     .contact-info > div:nth-child(even){
