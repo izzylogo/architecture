@@ -208,7 +208,7 @@
 
     .top-text{
         font-weight: 400;
-        color: #BC4749;
+        color: #fff;
         letter-spacing: .1rem;
         line-height: 1.714;
         margin-bottom: 2.8rem ;
@@ -453,7 +453,7 @@
     }
     
     .layout-3-para{
-        color:#BC4749;
+        color:#fff;
         margin-bottom: -350px;
     }
 
@@ -480,13 +480,13 @@
 
     .testimony p{
         margin-bottom: 1.7rem;
-        color:#BC4749;
+        color:#fff;
         font-weight: 700;
     }
     
     .testimony span{
         display: block;
-        color:#BC4749;
+        color:#fff;
     }
     
     .toggle{

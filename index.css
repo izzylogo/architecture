@@ -184,7 +184,7 @@ body{
         letter-spacing: .1rem;
         line-height: 1.714;
         margin-bottom: 2.8rem ;
-        color: #BC4749;
+        color: #fff;
     }
     
     .landing > div:nth-of-type(2) h1{
@@ -436,8 +436,8 @@ body{
         background-image: url(images/bg3.jpg);
         background-color: #161616a4;
         background-blend-mode: soft-light;
-        /* color: #fff; */
-        color:#BC4749;
+        color: #fff;
+        /* color:#BC4749; */
         z-index: 2;
         
     }
@@ -456,7 +456,8 @@ body{
     }
 
     .layout-3-para{
-        color:#BC4749 !important;
+        /* color:#BC4749 !important; */
+        color:#fff !important;
     }
     
     .layout-3 > div:nth-of-type(1) svg{
@@ -469,7 +470,7 @@ body{
         text-transform: uppercase;
         font-weight: 600;
         font-size: 2.571rem;
-        color:#BC4749;
+        color:#fff;
     }
     
     .testimonials{
@@ -501,12 +502,12 @@ body{
 
     .testimony p{
         margin-bottom: 2.6rem;
-        color:#BC4749;
+        color:#fff;
     }
     
     .testimony span{
         display: block;
-        color:#BC4749;
+        color:#fff;
     }
     
     .toggle{
