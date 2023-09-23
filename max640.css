@@ -423,10 +423,13 @@
         order: 5;
         height: 100vh;
         background-image: url(images/bg3.jpg);
+        background-color: #161616a4;
+        background-blend-mode: soft-light;
         color: #fff;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        margin-bottom: 10px;
     }
 
     .layout-3{
