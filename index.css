@@ -466,7 +466,7 @@ body{
     }
     
     .layout-3 > div:nth-of-type(1) p{
-        margin-top: 22vh;
+        margin-top: 20vh;
         text-transform: uppercase;
         font-weight: 600;
         font-size: 2.571rem;
